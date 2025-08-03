@@ -4,7 +4,7 @@
 #include <cctype>
 #include <cmath>
 #include <limits>
-#define NULL 0
+
 using namespace std;
 
 /* The IsPrime function contains the definition of a prime number. */
@@ -58,7 +58,7 @@ int main() {
 	} else if (choice == 'n' || choice == 'N') {
 		// Say goodbye to the user.
 		cout << "Thank you for using the program. Goodbye!" << endl;
-		cout << "Press any key to leave..." << endl;
+		cout << "Press return key to leave..." << endl;
 	}
 	cin.get(); // Wait for user input before exiting.
 	return 0;
